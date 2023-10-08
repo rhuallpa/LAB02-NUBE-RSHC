@@ -54,7 +54,8 @@ ROOT_URLCONF = 'mi_proyecto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        
+        'DIRS': [os.path.join(BASE_DIR, 'mi_proyecto/Aplicaciones/Academicos/Templates')],  # Ruta completa al directorio 'Templates'
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,6 +67,11 @@ TEMPLATES = [
         },
     },
 ]
+
+# settings.py
+
+
+
 
 WSGI_APPLICATION = 'mi_proyecto.wsgi.application'
 
