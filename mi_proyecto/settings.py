@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         
-        'DIRS': [os.path.join(BASE_DIR, 'mi_proyecto/Aplicaciones/Academicos/Templates')],  # Ruta completa al directorio 'Templates'
+        'DIRS': [os.path.join(BASE_DIR, 'Aplicaciones/Academicos/Templates')],  # Ruta completa al directorio 'Templates'
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,6 +69,8 @@ TEMPLATES = [
         },
     },
 ]
+
+
 
 # settings.py
 
