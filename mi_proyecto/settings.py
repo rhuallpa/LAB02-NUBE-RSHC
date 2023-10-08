@@ -133,6 +133,14 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
 APLICACIONES_URL = 'aplicaciones/'
+SIGNIN_URL= 'signin/'
+SIGNOUT_URL='signout/'
+SIGNUP_URL='signup/'
+PROFILE_URL='profile'
+HOME_URL='Home'
+LOGIN_URL='login'
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
